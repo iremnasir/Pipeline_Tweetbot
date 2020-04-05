@@ -3,8 +3,8 @@ from sqlalchemy import create_engine
 import time
 from random import randint
 
-oauth_token = "xoxb-944156563620-1031046221105-3CiFDNbaPFVdWQ0jll2iVcbY"
-
+# Insert oauth token here
+oauth_token =
 client = slack.WebClient(token=oauth_token)
 PG = create_engine('postgres://postgres:1234@postgresdb:5432')
 
