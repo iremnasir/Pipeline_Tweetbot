@@ -1,6 +1,8 @@
 # Pipeline_Tweetbot
 
-## Keywords : Docker, Mongo, Postgres, Slackbot
+### Project Aim:
+- To build a Dockerized pipeline with ETL job that is maintained on Airflow.
+- Keywords : [Docker](https://www.docker.com/), [Mongo](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/), [Slackbot](https://slack.com/intl/en-de/help/articles/202026038-An-introduction-to-Slackbot)
 
 - This pipeline project involves three Docker containers and a Metabase dashboard container that, in short, does:
   - Listens to tweets about a given keyword. User can set a maximum limit or stream continuously, depending on the keyword. Code is adapted from (https://github.com/pawlodkowski/twitter-mongoDB/blob/master/twitter_streamer.py).
