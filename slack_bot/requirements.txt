@@ -1,0 +1,3 @@
+slackclient
+SQLAlchemy
+psycopg2-binary
