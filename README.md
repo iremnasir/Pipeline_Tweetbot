@@ -1,5 +1,7 @@
 # Pipeline_Tweetbot
 
+## Keywords : Docker, Mongo, Postgres, Slackbot
+
 - This pipeline project involves three Docker containers and a Metabase dashboard container that, in short, does:
   - Listens to tweets about a given keyword. User can set a maximum limit or stream continuously, depending on the keyword. Code is adapted from (https://github.com/pawlodkowski/twitter-mongoDB/blob/master/twitter_streamer.py).
   - Listened tweets are stored in a MongoDB.
